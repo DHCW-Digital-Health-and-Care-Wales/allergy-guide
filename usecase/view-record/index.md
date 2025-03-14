@@ -36,7 +36,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
    3. they can see more details may be available
 2. the user can create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\empty-no-known-allergies.png)
+![list with positive negation entry](assets/empty-no-known-allergies.png)
 
 ### List view:  record with two entries
 
@@ -51,7 +51,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 2. they can see the most recent entries first by when they were last updated
 3. the user can create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\list.png)
+![](assets/list.png)
 
 ### List view:  record with entry expanded A
 
@@ -69,7 +69,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 3. they can see the most recent entries first by when they were last updated
 4. the user can create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\list-expanded-1.png)
+![](assets/list-expanded-1.png)
 
 ### List view:  record with entry expanded B
 
@@ -88,7 +88,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 3. they can see the most recent entries first by when they were last updated
 4. the user can create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\list-expanded-2.png)
+![](assets/list-expanded-2.png)
 
 
 ```mermaid

@@ -37,7 +37,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 
 
 
-![](..\..\assets\images\wireframes\add-allergy-medicine.png)
+![](assets/add-allergy-medicine.png)
 
 ### Add view:  other allergy
 
@@ -57,7 +57,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
    2. the user can repeat this action for each additional symptom
 5. The user can enter partial dates for onset
 
-![](..\..\assets\images\wireframes\add-allergy-other.png)
+![](assets/add-allergy-other.png)
 
 ## Diagrams
 
