@@ -1,0 +1,46 @@
+erDiagram
+
+
+    Practitioner {
+        string PRN
+
+    }
+
+    Patient {
+        string NHSNumber
+    }
+
+    Encounter {
+        string localisedId
+    }
+
+    AllergyIntolerance { 
+
+        Reference patient
+        Reference encounter
+        Reference recorder
+        Reference asserter   
+       
+    }
+
+
+    PractitionerRole{
+        Reference practitioner
+        Reference organization
+    }
+
+    RelatedPerson{
+        Patient patient
+    }
+
+    Patient ||--o{ AllergyIntolerance : "has"
+    Patient ||--o{ AllergyIntolerance : "records or asserts"
+    RelatedPerson ||--o{ Patient : "knows"
+    Practitioner ||--o{ PractitionerRole : "owns" 
+    Practitioner ||--o{ AllergyIntolerance : "records or asserts" 
+    PractitionerRole ||--o{ AllergyIntolerance : "records or asserts" 
+    RelatedPerson ||--o{ AllergyIntolerance : "records or asserts" 
+    AllergyIntolerance ||--|{ Encounter : "part of"
+
+
+    

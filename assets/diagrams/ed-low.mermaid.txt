@@ -1,0 +1,56 @@
+erDiagram
+
+
+    Practitioner {
+        string PRN
+
+    }
+
+    Patient {
+        string NHSNumber
+    }
+
+    Encounter {
+        string localisedId
+    }
+
+    AllergyIntolerance { 
+        Identifier identifier
+        CodeableConcept clinicalStatus
+        CodeableConcept verificationStatus
+        Code type
+        Code category
+        Code criticality
+        CodeableConcept code
+        Reference patient
+        Reference encounter
+        DataType onset
+        DateTime recordedDate
+        Reference recorder
+        Reference asserter   
+        DateTime lastOccurence
+        Annotation note
+        string reaction        
+    }
+
+
+    PractitionerRole{
+        Reference practitioner
+        Reference organization
+    }
+
+    RelatedPerson{
+        Patient patient
+    }
+
+    Patient ||--o{ AllergyIntolerance : "has"
+    Patient ||--o{ AllergyIntolerance : "records or asserts"
+    RelatedPerson ||--o{ Patient : "knows"
+    Practitioner ||--o{ PractitionerRole : "owns" 
+    Practitioner ||--o{ AllergyIntolerance : "records or asserts" 
+    PractitionerRole ||--o{ AllergyIntolerance : "records or asserts" 
+    RelatedPerson ||--o{ AllergyIntolerance : "records or asserts" 
+    AllergyIntolerance ||--|{ Encounter : "part of"
+
+
+    
