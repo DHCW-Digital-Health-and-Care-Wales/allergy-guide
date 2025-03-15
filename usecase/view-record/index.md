@@ -13,11 +13,11 @@ Wireframes are not prescriptive. See notes on [how to use wireframes](../index.m
   * [second item epanded](#list-view--record-with-entry-expanded-b)
  
 
-### User goals:
+### User goals
 
 * see all records of allergies for a patient
 
-### Interface goals:
+### Interface goals
 
 * minimise screen time 
 * provide a safe overview- enough to eliminate accidental risk of harm
