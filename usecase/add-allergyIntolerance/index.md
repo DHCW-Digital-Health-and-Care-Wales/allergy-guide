@@ -1,6 +1,6 @@
 # Add an allergy or intolerance for a patient
 
-> jump to : [Wireframes](#wireframes) | [diagrams](diagrams)
+> jump to : [Wireframes](#wireframes) | [diagrams](#diagrams)
   
 ## Wireframes
 
