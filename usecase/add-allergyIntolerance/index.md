@@ -8,8 +8,8 @@ Wireframes are not prescriptive. See notes on [how to use wireframes](url)
 
 **Walk-through samples**
 * [Add medicine allergy](#add-view-medicine-allergy)
-  * [general medication example](general-medication-allergy-add.md)
-  * [specific medication example](specific-medication-allergy-add.md)
+  * [general medication example](general%20medication%20allergy%20-%20add.md)
+  * [specific medication example](specific%20medication%20allergy%20-%20add.md)
 * [Add other allergy](#add-view--other-allergy)
  
 ### User goals
