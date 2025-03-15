@@ -24,7 +24,7 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 1. The user can clearly see there is no record of allergies
 2. the user can create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\empty.png)
+![](assets/empty.png)
 
 ### List view: positive negation statement
 
