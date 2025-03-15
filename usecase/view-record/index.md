@@ -1,5 +1,7 @@
 # View allergy records for a patient
 
+> jump to : [Wireframes](#wireframes) | [diagrams](diagrams)
+> 
 ## Wireframes
 
 Wireframes are not prescriptive. See notes on [how to use wireframes](../index.md#understanding-wireframes)
