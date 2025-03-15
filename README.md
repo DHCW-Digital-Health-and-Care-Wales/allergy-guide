@@ -1,6 +1,6 @@
 # Allergy Guide
 
-A work space where guidance can be refined to build out good clincal and technical user experience and safe practice when working with allergies
+A work space where good clinical and technical user experience can be refined to build out safe practice guidance when working with allergies
 
 ## Purpose
 * A shared workspace to refine and define public content
