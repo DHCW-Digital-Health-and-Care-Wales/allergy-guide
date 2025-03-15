@@ -29,6 +29,10 @@ The following are common to all use cases and examples
 
 ### Comon definitions & abbreviations
 
+* the system: a digital tool with allergy risk management functionality
+  
+* the user: a person with accces to the system
+  
 * HCW: Health Care worker
 
 * FHIR: Fast Healthcare Interoperability Resource. A healthcare data exchange framework from HL7 international for the modern web
