@@ -1,24 +1,21 @@
-## Allergy and Intolerance Implementation Guide
 
+# Use cases
 
+### [View allergy records for a patient](view-record/index.md)
 
-### Use cases
+A user can view an allergy record for a clear overview of known risks to a patient
 
-#### View allergy records for a patient
+### [Add an allergy or intolerance for a patient](add-allergyIntolerance/index.md)
+A user can add a known risk so that others can understand it
 
-#### [Add an allergy or intolerance for a patient](add-allergyIntolerance/index.md)
+### [Update an allergy or intollerance for a patient](update-allergyIntolerance/index.md)
+A user can make changes a known risk when new information is known
 
-#### [Update an allergy or intollerance for a patient](update-allergyIntolerance/index.md)
-
-
-
-### Background: all use cases
+## Background: all use cases
 
 The following are common to all use cases and examples
 
-
-
-#### Common assumptions
+### Common assumptions
 
 * an allergy record is available in FHIR R4
 
@@ -30,7 +27,7 @@ The following are common to all use cases and examples
 
   
 
-#### Comon definitions & abbreviations
+### Comon definitions & abbreviations
 
 * HCW: Health Care worker
 
@@ -40,7 +37,7 @@ The following are common to all use cases and examples
 
 
 
-#### Understanding the flow diagrams
+### Understanding the flow diagrams
 
 Key elements in the diagram, and where appropriate how these map to the FHIR resource.
 
