@@ -2,7 +2,16 @@
 
 ## Wireframes
 
-These wireframes are not prescriptive. Wireframes are intended to provide design guidance, where needed, to help users complete tasks.  Quality measures, if you need to assess wireframes, should consider information archiecture and user experience. Colours and the layout are indicative of visual priority and do not reflect a production-ready design.
+Wireframes are not prescriptive. See notes on [how to use wireframes](url)
+
+**Walk-through samples**
+* [no entries in the record](#list-view-no-entries)
+* [negation in the record](#list-view-positive-negation-statement)
+* [entries in the record](#list-view--record-with-two-entries)
+* expanded views of entries in the record
+  * [first item epanded](#list-view--record-with-entry-expanded-a)
+  * [second item epanded](#list-view--record-with-entry-expanded-b)
+ 
 
 ### User goals:
 
