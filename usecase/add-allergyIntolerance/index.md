@@ -4,7 +4,7 @@
   
 ## Wireframes
 
-Wireframes are not prescriptive. See notes on [how to use wireframes](url)
+Wireframes are not prescriptive. See notes on [how to use wireframes](../index.md#understanding-wireframes)
 
 **Walk-through samples**
 * [Add medicine allergy](#add-view-medicine-allergy)
