@@ -101,6 +101,9 @@ Wireframes are not prescriptive. See notes on [how to use wireframes](../index.m
 ![](assets/list-expanded-2.png)
 
 
+## Diagrams
+### display records
+
 ```mermaid
 flowchart TD
 
