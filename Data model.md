@@ -70,9 +70,9 @@ The following use cases are available. See [use cases](usecase/index.md) for an 
 
 *  [View allergy records for a patient](usecase/view-record/index.md)
 
-* [Add an allergy or intolerance for a patient](usecase/add-allergyIntolerance\index.md)
+* [Add an allergy or intolerance for a patient](usecase/add-allergyIntolerance/index.md)
 
-* [Update an allergy or intollerance for a patient](usecase/update-allergyIntolerance\index.md)
+* [Update an allergy or intollerance for a patient](usecase/update-allergyIntolerance/index.md)
 
 
 
