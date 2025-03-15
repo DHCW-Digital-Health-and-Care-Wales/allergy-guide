@@ -6,9 +6,9 @@
 
 #### View allergy records for a patient
 
-#### [Add an allergy or intolerance for a patient](add-allergyIntolerance\index.md)
+#### [Add an allergy or intolerance for a patient](add-allergyIntolerance/index.md)
 
-#### [Update an allergy or intollerance for a patient](update-allergyIntolerance\index.md)
+#### [Update an allergy or intollerance for a patient](update-allergyIntolerance/index.md)
 
 
 
