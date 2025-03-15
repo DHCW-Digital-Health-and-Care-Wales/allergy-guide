@@ -1,21 +1,17 @@
 # Add an allergy or intolerance for a patient
 
 
-**Contents**
-* [wireframe: add medicine allergy](#add-view-medicine-allergy)
-* [wireframe: add other allergy](#add-view--other-allergy)
-* [flow diagrams](#diagrams)
-  
-**See also**
-* [general medication example](general-medication-allergy-add.md)
-* [specific medication example](specific-medication-allergy-add.md)
-
-
   
 ## Wireframes
 
 Wireframes are not prescriptive. See notes on [how to use wireframes](url)
 
+**Walk-through samples**
+* [Add medicine allergy](#add-view-medicine-allergy)
+  * [general medication example](general-medication-allergy-add.md)
+  * [specific medication example](specific-medication-allergy-add.md)
+* [Add other allergy](#add-view--other-allergy)
+ 
 ### User goals
 
 * add a new record of a side effect for a patient
