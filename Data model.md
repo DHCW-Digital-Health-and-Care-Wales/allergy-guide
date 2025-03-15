@@ -66,13 +66,13 @@ The practitioner will record the allergy. As they do this, the practitioner may 
 
 #### Use cases
 
-The following use cases are available. See [use cases](usecase\index.md) for an overview or the following links for details and examples.
+The following use cases are available. See [use cases](usecase/index.md) for an overview or the following links for details and examples.
 
-*  [View allergy records for a patient](view-record/index.md)
+*  [View allergy records for a patient](usecase/view-record/index.md)
 
-* [Add an allergy or intolerance for a patient](add-allergyIntolerance\index.md)
+* [Add an allergy or intolerance for a patient](usecase/add-allergyIntolerance\index.md)
 
-* [Update an allergy or intollerance for a patient](update-allergyIntolerance\index.md)
+* [Update an allergy or intollerance for a patient](usecase/update-allergyIntolerance\index.md)
 
 
 
