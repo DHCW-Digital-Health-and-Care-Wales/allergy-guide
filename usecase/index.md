@@ -2,7 +2,6 @@
 # Use cases
 
 ### [View allergy records for a patient](view-record/index.md)
-
 A user can view an allergy record for a clear overview of known risks to a patient
 
 ### [Add an allergy or intolerance for a patient](add-allergyIntolerance/index.md)
