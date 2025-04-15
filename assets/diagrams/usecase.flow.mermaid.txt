@@ -1,0 +1,44 @@
+---
+config:
+  theme: neutral
+---
+flowchart TD
+ subgraph subGraph0["add reaction event"]
+        E2["Sets <b>event onset</b>"]
+        E1["Sets <br><b>event severity</b><br>[mild | moderate | severe]"]
+        E3["Finds or selects <br> <b>symptoms</b>"]
+        E4["Sets <b>event note<b></b></b>"]
+        E5{"substance<br> is different from <br>overall risk <br>substance?"}
+        E6["Finds or selects <br> <b>substance</b>"]
+  end
+ subgraph record["edit record"]
+        S6["Sets <br><b>clinical status</b><br>[active | inactive | resolved]"]
+        S5["Sets <br><b>category</b> <br>[food | medication | environment | biologic]"]
+        S7["Sets <br><b>verification status</b><br>[unconfirmed | confirmed | refuted | entered-in-error]"]
+        S8["Sets <br><b>criticality</b><br>[low | high | unable-to-assess]"]
+        S9["Finds or selects <br> <b>substance</b> <br>responsible for the risk"]
+        S10["Adds <b>note</b>"]
+        S11["Adds reactions:"]
+        subGraph0
+  end
+    TRIGGER(["side effects or reaction is determined"]) --> S2["The user views the allergy record"]
+    S2 --> S3{"is there an <br>equivalent entry?"}
+    S3 -- Yes --> S4{"is it accurate <br>and complete?"}
+    S3 -- N ---> record
+    S4 -- Yes --> SUCCESS(["process terminates"])
+    S4 -- N ---> record
+    S5 --> S6
+    S6 --> S7
+    S7 --> S8
+    S8 --> S9
+    S9 --> S10
+    S10 --> S11
+    S11 --> subGraph0
+    E1 --> E2
+    E2 --> E3
+    E3 --> E4
+    E4 --> E5
+    E5 -- Yes --> E6
+	subGraph0 --> SUCCESS(["process terminates"])
+    style TRIGGER fill:#00CC00
+    style SUCCESS fill:#00CC00
