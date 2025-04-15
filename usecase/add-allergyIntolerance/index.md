@@ -1,9 +1,17 @@
 # Add an allergy or intolerance for a patient
 
+> jump to : [Wireframes](#wireframes) | [diagrams](#diagrams)
+  
 ## Wireframes
 
-These wireframes are not prescriptive. Wireframes are intended to provide design guidance, where needed, to help users complete tasks.  Quality measures, if you need to assess wireframes, should consider information archiecture and user experience. Colours and the layout are indicative of visual priority and do not reflect a production-ready design.
+Wireframes are not prescriptive. See notes on [how to use wireframes](../index.md#understanding-wireframes)
 
+**Walk-through samples**
+* [Add medicine allergy](#add-view-medicine-allergy)
+  * Activity example: [general medication example](general%20medication%20allergy%20-%20add.md)
+  * Activity example: [specific medication example](specific%20medication%20allergy%20-%20add.md)
+* [Add other allergy](#add-view--other-allergy)
+ 
 ### User goals
 
 * add a new record of a side effect for a patient
@@ -19,21 +27,21 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 
 
 
-### Add view:  medicine allergy
+### Add view: medicine allergy
 
-#### Notes
+#### The user can:
 
-1. When the user selects medicine reaction, the system shows data from the patients medicines record
-   1. all  SHOULD be backed by an entity using the DM+D coding system
-2. User can find other medicines 
+1. see data from the patients medicines record when they select *medicine reaction*
+   1. all SHOULD be backed by an entity using the DM+D coding system
+2. find other medicines 
    1. the type ahead box finds matching values in SNOMED terminology, looking for concepts with an  'is a' relationship to 'UK product'
    2. If the concept behind the user selection has DM+D attributes, the DM+D coding system can be used alongside the SNOMED code
-3. User can select from common symptoms
+3. select from common symptoms
    1. all  SHOULD be backed by an entity using the SNOMED  coding system
-4. User can find other symptoms 
+4. find other symptoms 
    1. the type ahead box finds matching values in SNOMED terminology, looking for concepts with an  'is a' relationship to 'findings'
    2. the user can repeat this action for each additional symptom
-5. The user can enter partial dates for onset
+5. enter partial dates for onset
 
 
 
@@ -43,19 +51,19 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 
 
 
-#### Notes
+#### The user can:
 
-1. Before the user selects medicine reaction, the system shows common substances know to cause food, boilogical or environmental allergic responses.
-   1. all  SHOULD be backed by an entity using the SNOMED coding system
-2. User can find other substances
+1. see common substances know to cause food, boilogical or environmental allergic responses.
+   1. all SHOULD be backed by an entity using the SNOMED coding system
+2. find other substances
    1. the type ahead box finds matching values in SNOMED terminology, looking for concepts with an  'is a' relationship to 'substance'
    2. typing without a match results produces a text only coding
-3. User can select from common symptoms
+3. select from common symptoms
    1. all  SHOULD be backed by an entity using the SNOMED  coding system
-4. User can find other symptoms 
+4. find other symptoms 
    1. the type ahead box finds matching values in SNOMED terminology, looking for concepts with an  'is a' relationship to 'findings'
    2. the user can repeat this action for each additional symptom
-5. The user can enter partial dates for onset
+5. enter partial dates for onset
 
 ![](assets/add-allergy-other.png)
 

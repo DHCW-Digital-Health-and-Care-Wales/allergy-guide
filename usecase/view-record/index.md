@@ -1,14 +1,25 @@
 # View allergy records for a patient
 
+> jump to : [Wireframes](#wireframes) | [diagrams](diagrams)
+> 
 ## Wireframes
 
-These wireframes are not prescriptive. Wireframes are intended to provide design guidance, where needed, to help users complete tasks.  Quality measures, if you need to assess wireframes, should consider information archiecture and user experience. Colours and the layout are indicative of visual priority and do not reflect a production-ready design.
+Wireframes are not prescriptive. See notes on [how to use wireframes](../index.md#understanding-wireframes)
 
-### User goals:
+**Walk-through samples**
+* [no entries in the record](#list-view-no-entries)
+* [negation in the record](#list-view-positive-negation-statement)
+* [entries in the record](#list-view--record-with-two-entries)
+* expanded views of entries in the record
+  * [first item epanded](#list-view--record-with-entry-expanded-a)
+  * [second item epanded](#list-view--record-with-entry-expanded-b)
+ 
+
+### User goals
 
 * see all records of allergies for a patient
 
-### Interface goals:
+### Interface goals
 
 * minimise screen time 
 * provide a safe overview- enough to eliminate accidental risk of harm
@@ -19,77 +30,79 @@ These wireframes are not prescriptive. Wireframes are intended to provide design
 
 ### List view: no entries
 
-#### Notes
+#### The user can:
 
-1. The user can clearly see there is no record of allergies
-2. the user can create a new entry (when permitted)
+1. clearly see there is no record of allergies
+2. create a new entry (when permitted)
 
-![](..\..\assets\images\wireframes\empty.png)
+![](assets/empty.png)
 
 ### List view: positive negation statement
 
-#### Notes
+#### The user can:
 
-1. The user can clearly see an entry stating there are no allergies
-   1. they can see the status of it
-   2. they can see when it was last updated
-   3. they can see more details may be available
-2. the user can create a new entry (when permitted)
+1. see an entry stating there are no allergies
+   1. see the status of it
+   2. see when it was last updated
+   3. see more details may be available
+2. create a new entry (when permitted)
 
 ![list with positive negation entry](assets/empty-no-known-allergies.png)
 
 ### List view:  record with two entries
 
-#### Notes
+#### The user can:
 
-1. The user can clearly see two entries
-   1. they can see the substance of each
-   2. they can see the status of each
-   3. they can see how critical the entries are
-   4. they can see when each was last updated
-   5. they can see more details may be available
-2. they can see the most recent entries first by when they were last updated
-3. the user can create a new entry (when permitted)
+1. see two entries
+   1. see the substance of each
+   2. see the status of each
+   3. see how critical the entries are
+   4. see when each was last updated
+   5. see more details may be available
+2. see the most recent entries are first by when they were last updated
+3. create a new entry (when permitted)
 
 ![](assets/list.png)
 
 ### List view:  record with entry expanded A
 
-#### Notes
+#### The user can:
 
-1. The user can clearly see two entries
-2. One of the entries is showing more details
-   1. they can see the notes and when the notes were made
-   2. they can see reaction events and for each:
-      1. they can symptoms
-      2. they can see the substance that caused the symtoms  (if known)
-      3. they can see when it was recorded and who recorded it
-      4. they can see notes about symptoms
-   3. they can see how to make changes to it  (when permitted)
-3. they can see the most recent entries first by when they were last updated
-4. the user can create a new entry (when permitted)
+1. see two entries
+2. see the first of the entries is showing more details and
+   1. see the notes and when the notes were made
+   2. see reaction events and for each:
+      1. see symptoms
+      2. see the substance that caused the symtoms  (if known)
+      3. see when it was recorded and who recorded it
+      4. see notes about symptoms
+   3. seehow to make changes to it  (when permitted)
+3. see the most recent entries first by when they were last updated
+4. create a new entry (when permitted)
 
 ![](assets/list-expanded-1.png)
 
 ### List view:  record with entry expanded B
 
-#### Notes
+#### The user can:
 
-1. The user can clearly see two entries
-2. One of the entries is showing more details
-   1. they can see the notes and when the notes were made
-   2. they can see the notes are order chronologically
-   3. they can see reaction events and for each:
-      1. they can symptoms
-      2. they can see the substance that caused the symtoms  (if known)
-      3. they can see when it was recorded and who recorded it
-      4. they can see notes about symptoms
-   4. they can see how to make changes to it  (when permitted)
-3. they can see the most recent entries first by when they were last updated
-4. the user can create a new entry (when permitted)
+1. see two entries
+2. see the second of the entries is showing more details and
+   1. see the notes and when the notes were made
+   2. see reaction events and for each:
+      1. see symptoms
+      2. see the substance that caused the symtoms  (if known)
+      3. see when it was recorded and who recorded it
+      4. see notes about symptoms
+   3. seehow to make changes to it  (when permitted)
+3. see the most recent entries first by when they were last updated
+4. create a new entry (when permitted)
 
 ![](assets/list-expanded-2.png)
 
+
+## Diagrams
+### display records
 
 ```mermaid
 flowchart TD
